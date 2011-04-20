@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788CC016135F0D0000060BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CC015135F0D0000060BBA /* Foundation.framework */; };
+		788CC021135F0D0000060BBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CC020135F0D0000060BBA /* UIKit.framework */; };
+		788CC022135F0D0000060BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CC015135F0D0000060BBA /* Foundation.framework */; };
+		788CC024135F0D0000060BBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CC023135F0D0000060BBA /* CoreGraphics.framework */; };
+		788CC027135F0D0000060BBA /* libHelium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CC012135F0D0000060BBA /* libHelium.a */; };
+		788CC02D135F0D0000060BBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788CC02B135F0D0000060BBA /* InfoPlist.strings */; };
+		788CC030135F0D0000060BBA /* HeliumTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 788CC02F135F0D0000060BBA /* HeliumTests.h */; };
+		788CC032135F0D0000060BBA /* HeliumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788CC031135F0D0000060BBA /* HeliumTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788CC025135F0D0000060BBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788CC009135F0D0000060BBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788CC011135F0D0000060BBA;
+			remoteInfo = Helium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		788CC012135F0D0000060BBA /* libHelium.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHelium.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		788CC015135F0D0000060BBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		788CC019135F0D0000060BBA /* Helium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Helium-Prefix.pch"; sourceTree = "<group>"; };
+		788CC01F135F0D0000060BBA /* HeliumTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeliumTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		788CC020135F0D0000060BBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		788CC023135F0D0000060BBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		788CC02A135F0D0000060BBA /* HeliumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeliumTests-Info.plist"; sourceTree = "<group>"; };
+		788CC02C135F0D0000060BBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788CC02E135F0D0000060BBA /* HeliumTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeliumTests-Prefix.pch"; sourceTree = "<group>"; };
+		788CC02F135F0D0000060BBA /* HeliumTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeliumTests.h; sourceTree = "<group>"; };
+		788CC031135F0D0000060BBA /* HeliumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeliumTests.m; sourceTree = "<group>"; };
+		788CC04D135F12F700060BBA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788CC00F135F0D0000060BBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788CC016135F0D0000060BBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788CC01B135F0D0000060BBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788CC021135F0D0000060BBA /* UIKit.framework in Frameworks */,
+				788CC022135F0D0000060BBA /* Foundation.framework in Frameworks */,
+				788CC024135F0D0000060BBA /* CoreGraphics.framework in Frameworks */,
+				788CC027135F0D0000060BBA /* libHelium.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788CC007135F0D0000060BBA = {
+			isa = PBXGroup;
+			children = (
+				788CC04D135F12F700060BBA /* .gitignore */,
+				788CC017135F0D0000060BBA /* Helium */,
+				788CC028135F0D0000060BBA /* HeliumTests */,
+				788CC014135F0D0000060BBA /* Frameworks */,
+				788CC013135F0D0000060BBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788CC013135F0D0000060BBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788CC012135F0D0000060BBA /* libHelium.a */,
+				788CC01F135F0D0000060BBA /* HeliumTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788CC014135F0D0000060BBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788CC015135F0D0000060BBA /* Foundation.framework */,
+				788CC020135F0D0000060BBA /* UIKit.framework */,
+				788CC023135F0D0000060BBA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788CC017135F0D0000060BBA /* Helium */ = {
+			isa = PBXGroup;
+			children = (
+				788CC018135F0D0000060BBA /* Supporting Files */,
+			);
+			path = Helium;
+			sourceTree = "<group>";
+		};
+		788CC018135F0D0000060BBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788CC019135F0D0000060BBA /* Helium-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788CC028135F0D0000060BBA /* HeliumTests */ = {
+			isa = PBXGroup;
+			children = (
+				788CC02F135F0D0000060BBA /* HeliumTests.h */,
+				788CC031135F0D0000060BBA /* HeliumTests.m */,
+				788CC029135F0D0000060BBA /* Supporting Files */,
+			);
+			path = HeliumTests;
+			sourceTree = "<group>";
+		};
+		788CC029135F0D0000060BBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788CC02A135F0D0000060BBA /* HeliumTests-Info.plist */,
+				788CC02B135F0D0000060BBA /* InfoPlist.strings */,
+				788CC02E135F0D0000060BBA /* HeliumTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		788CC010135F0D0000060BBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		788CC011135F0D0000060BBA /* Helium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788CC035135F0D0000060BBA /* Build configuration list for PBXNativeTarget "Helium" */;
+			buildPhases = (
+				788CC00E135F0D0000060BBA /* Sources */,
+				788CC00F135F0D0000060BBA /* Frameworks */,
+				788CC010135F0D0000060BBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Helium;
+			productName = Helium;
+			productReference = 788CC012135F0D0000060BBA /* libHelium.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		788CC01E135F0D0000060BBA /* HeliumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788CC038135F0D0000060BBA /* Build configuration list for PBXNativeTarget "HeliumTests" */;
+			buildPhases = (
+				788CC01A135F0D0000060BBA /* Sources */,
+				788CC01B135F0D0000060BBA /* Frameworks */,
+				788CC01C135F0D0000060BBA /* Resources */,
+				788CC01D135F0D0000060BBA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788CC026135F0D0000060BBA /* PBXTargetDependency */,
+			);
+			name = HeliumTests;
+			productName = HeliumTests;
+			productReference = 788CC01F135F0D0000060BBA /* HeliumTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788CC009135F0D0000060BBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = I.TV;
+			};
+			buildConfigurationList = 788CC00C135F0D0000060BBA /* Build configuration list for PBXProject "Helium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 788CC007135F0D0000060BBA;
+			productRefGroup = 788CC013135F0D0000060BBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788CC011135F0D0000060BBA /* Helium */,
+				788CC01E135F0D0000060BBA /* HeliumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788CC01C135F0D0000060BBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788CC02D135F0D0000060BBA /* InfoPlist.strings in Resources */,
+				788CC030135F0D0000060BBA /* HeliumTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		788CC01D135F0D0000060BBA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788CC00E135F0D0000060BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788CC01A135F0D0000060BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788CC032135F0D0000060BBA /* HeliumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788CC026135F0D0000060BBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788CC011135F0D0000060BBA /* Helium */;
+			targetProxy = 788CC025135F0D0000060BBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788CC02B135F0D0000060BBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788CC02C135F0D0000060BBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788CC033135F0D0000060BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		788CC034135F0D0000060BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		788CC036135F0D0000060BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/Helium.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helium/Helium-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		788CC037135F0D0000060BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/Helium.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helium/Helium-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+		788CC039135F0D0000060BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeliumTests/HeliumTests-Prefix.pch";
+				INFOPLIST_FILE = "HeliumTests/HeliumTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		788CC03A135F0D0000060BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeliumTests/HeliumTests-Prefix.pch";
+				INFOPLIST_FILE = "HeliumTests/HeliumTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788CC00C135F0D0000060BBA /* Build configuration list for PBXProject "Helium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788CC033135F0D0000060BBA /* Debug */,
+				788CC034135F0D0000060BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788CC035135F0D0000060BBA /* Build configuration list for PBXNativeTarget "Helium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788CC036135F0D0000060BBA /* Debug */,
+				788CC037135F0D0000060BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788CC038135F0D0000060BBA /* Build configuration list for PBXNativeTarget "HeliumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788CC039135F0D0000060BBA /* Debug */,
+				788CC03A135F0D0000060BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788CC009135F0D0000060BBA /* Project object */;
+}
